@@ -1,21 +1,13 @@
-MIT License
+В приложении registration/ будут храниться все функции и шаблоны, 
+обслуживающие регистрацию и вход пользователя на сайт. Мы будем использовать 
+стандартную модель пользователя Django на начальном этапе, в будущем нужно 
+будет написать свою?
 
-Copyright (c) [year] [fullname]
+В приложении wall/ будут храниться все функции и шаблоны, отвечающие за 
+написание постов и комментариев, лайки и репосты.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+В приложении messenger/ мы реализуем независимый от остальной системы (за 
+исключением core и, возможно, registration? смотря куда мы положим модель 
+пользователя в будущем) месседжер.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+В приложении core/ лежат общие для всех прочих приложений шаблоны.
